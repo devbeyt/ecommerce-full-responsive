@@ -1,0 +1,51 @@
+
+/* --- category styles start --- */
+.category
+{
+    width: 24%;
+    min-height: 80vh;
+}
+
+.category_ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.category_ul_li
+{
+    list-style-type: none;
+}
+
+.category_Link
+{
+    text-decoration: none;
+    color: #171717;
+    font-size: 18px;
+}
+
+/* end of category styles */
+
+
+
+
+
+/*  mobile css */
+
+@media screen and (max-width: 767px) {
+    .category,
+    .category_ul
+    {
+        width: 100%;
+        border: none;
+    }
+    .category_ul
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+}

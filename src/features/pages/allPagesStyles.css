@@ -1,0 +1,15 @@
+.home_page
+{
+    display: flex;
+}
+
+
+/*  mobile css */
+
+@media screen and (max-width: 767px) {
+    .home_page
+    {
+       display: flex;
+       flex-direction: column;
+    }
+}

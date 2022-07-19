@@ -6,6 +6,12 @@ body
 
 /* ---- default styles ----- */
 
+.page
+{
+  margin-top: 65px;
+  width: 100%;
+}
+
 .footer
 {
    width: 100%;
@@ -17,14 +23,7 @@ body
    color: red;
 }
 
-.page
-{
-  width: 100%;
-  min-height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .page > h1
 {
