@@ -1,0 +1,141 @@
+
+
+/* --------navigation styles start------------- */
+.desktop_navigation
+{
+   border-bottom: 0.5px solid lightgray;
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   z-index: 999;
+   background-color: rgb(231, 231, 231);
+}
+
+.navigation_container
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 65px;
+}
+
+/* nav left */
+
+.logo
+{
+    text-decoration: none;
+    font-size: 24px;
+    color: deeppink;
+}
+
+.logo:hover
+{
+   color: deeppink;
+}
+
+/* nav center */
+.search_container
+{
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: none;
+}
+
+.search_style
+{
+   width: 100%;
+   padding: 2px 0;
+   border: none;
+   background-color: transparent;
+}
+
+.search_style:focus 
+{
+   outline: none;
+   border-bottom: 1px solid lightgray;
+}
+
+.search_btn
+{
+   cursor: pointer;
+}
+
+.show_search_input
+{
+ display: block;
+}
+
+/* nav right */
+
+.signIn,
+.signUp
+{
+   border: none;
+   padding: 5px;
+   font-size: 14px;
+}
+
+/* .signIn
+{
+   
+}
+
+.signUp
+{
+
+} */
+
+
+.nav_right_components
+{
+   width: 22%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav_icon:hover
+{
+   color: deeppink;
+   cursor: pointer;
+}
+.hamburger
+{
+    display: none;
+}
+
+
+/* ---------- end of navigation ------------ */
+
+
+
+
+
+
+/* ---------- mobile css ----------- */
+
+@media screen and (max-width: 767px) {
+     
+     .search_container
+     {
+      width: 40%;
+      position: relative;
+     }
+     .search_btn
+     {
+      position: absolute;
+      right: 0;
+     }
+     .hidden
+     {
+      display: none;
+     }
+     .hamburger
+     {
+        display: block;
+        cursor: pointer;
+     }
+} 
